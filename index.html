@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid World Generator</title>
+    <style>
+        #worldCanvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="worldCanvas" width="480" height="360"></canvas>
+    <br>
+    Cube Type:
+    <select id="cubeType">
+        <option value="1">Grass</option>
+        <option value="2">Dirt</option>
+        <option value="3">Stone</option>
+        <option value="0">Eraser</option>
+    </select>
+    <button onclick="saveWorld()">Save World</button>
+    <button onclick="loadWorld()">Load World</button>
+    <br>
+    <textarea id="worldData" rows="4" cols="50"></textarea>
+
+    <script src="script.js"></script>
+</body>
+</html>
