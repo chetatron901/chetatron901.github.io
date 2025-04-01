@@ -42,7 +42,7 @@ function drawWorld() {
         if (cube.type === 1) {
             color = 'green'; // Grass
         } else if (cube.type === 2) {
-            color = 'brown'; // Dirt
+            color = 'syrup'; // Dirt
         } else if (cube.type === 3) {
             color = 'darkgray'; // stone
         }
